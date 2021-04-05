@@ -13,3 +13,9 @@
  *= require_tree .
  *= require_self
  */
+
+@font-face {
+   font-family: 'IBM Plex Serif';
+   src: url('IBMPlexSerif-Regular.ttf');
+}
+

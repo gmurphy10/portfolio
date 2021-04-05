@@ -25,7 +25,16 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 30px;
+}
+
+.title-text h1 {
+  font-family: 'IBM Plex Serif';
+  font-size: 65px;
+}
+
+.title-text h2, h3 {
+  font-family: 'IBM Plex Serif';
+  font-size: 35px;
 }
 
 // about styling
@@ -37,4 +46,8 @@
   text-align: center;
   position: absolute;
   width: 70%;
+}
+
+.about-background {
+  background: gray;
 }
