@@ -37,9 +37,15 @@
   font-size: 35px;
 }
 
-// about styling
+// about styling section
+
 .about-card {
   padding: 50px 72px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #a5a58d;
+  padding-bottom: 60px;
 }
 
 .about-text {
@@ -48,6 +54,4 @@
   width: 70%;
 }
 
-.about-background {
-  background: gray;
-}
+
