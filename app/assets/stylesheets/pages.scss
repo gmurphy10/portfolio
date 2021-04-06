@@ -39,19 +39,29 @@
 
 // about styling section
 
+.about-card h1 {
+  font-family: 'IBM Plex Serif';
+}
+
 .about-card {
   padding: 50px 72px;
   display: flex;
   align-items: center;
+  text-align: center;
   flex-direction: column;
-  background-color: #a5a58d;
   padding-bottom: 60px;
+  font-size: 16px;
+  font-family: 'IBM Plex Serif';
 }
 
 .about-text {
   text-align: center;
   position: absolute;
   width: 70%;
+}
+
+.about-info {
+  margin: -25px 200px;
 }
 
 

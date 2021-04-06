@@ -19,3 +19,5 @@
    src: url('IBMPlexSerif-Regular.ttf');
 }
 
+@import "font-awesome-sprockets";
+@import "font-awesome";
