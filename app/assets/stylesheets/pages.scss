@@ -94,26 +94,51 @@
   box-sizing: border-box;
   display: flex;
   justify-content: space-evenly;
+  padding-bottom: 60px;
 }
 
 // Skill section
-.skills-card {
-  padding: 50px 72px;
-  display: flex;
-  align-items: center;
+.skills-header {
   text-align: center;
+  align-items: center;
   flex-direction: column;
-  font-size: 16px;
   font-family: 'IBM Plex Serif';
+  font-size: 16px;
+}
+
+.skilss-grid {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skill-list {
+  color: gray;
+  display: -webkit-inline-box;
 }
 
 .skill-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: gray;
+  width: 75px;
+  height: 75px;
+  margin: 0 5px;
+  font-size: 50px;
 }
 
+.skill-item p {
+  font-size: 15px;
+  display: none;
+}
+
+.skill-item p:hover {
+  display: content;
+}
+
+.skill-item:hover {
+  width: 75px;
+  height: 75px;
+  margin: 0 5px;
+  font-size: 60px;
+  cursor: pointer;
+  color: black;
+}
 
 
