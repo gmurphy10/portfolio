@@ -62,9 +62,9 @@
   padding: 10px 10px;
 }
 
-.flip-card-front:hover,
-.flip-card-front:hover:active {
- background-color: gray;
+.flip-card-back i {
+  background-color: #bbb;
+  font-size: 40px;
 }
 
 
