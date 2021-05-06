@@ -128,9 +128,12 @@
   display: none;
 }
 
-.skill-item p:hover {
+.skill-item:hover {
+  p {
   font-size: 15px;
   display: block;
+  font-family: 'IBM Plex Serif';
+  }
 }
 
 .skill-item:hover {
