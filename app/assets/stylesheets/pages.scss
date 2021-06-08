@@ -70,6 +70,10 @@ body {
 
 // about styling section
 
+.about-card {
+  background-color: #e9ecef;
+}
+
 .about-card h1 {
   font-family: 'IBM Plex Serif';
 }
@@ -92,7 +96,7 @@ body {
   padding-bottom: 60px;
   font-size: 30px;
   font-family: 'IBM Plex Serif';
-  margin-bottom: 35px;
+  margin-bottom: -40px;
   position: relative;
 }
 
@@ -118,6 +122,7 @@ body {
   flex-direction: column;
   font-family: 'IBM Plex Serif';
   font-size: 30px;;
+  background-color: #e9ecef;
 }
 
 .project-grid {
@@ -125,6 +130,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   padding-bottom: 60px;
+  background-color: #e9ecef;
 }
 
 // Skill section
@@ -143,7 +149,7 @@ body {
 }
 
 .skill-list {
-  color: #6c757d;
+  color: #212529;
   display: -webkit-inline-box;
 }
 
