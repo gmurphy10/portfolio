@@ -54,6 +54,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  font-size: 30px;
 }
 
 .title-text h1 {
@@ -65,7 +66,6 @@ body {
 
 .title-text h2, h3 {
   font-family: 'IBM Plex Serif';
-  font-size: 40px;
 }
 
 // about styling section
@@ -90,9 +90,14 @@ body {
   text-align: center;
   flex-direction: column;
   padding-bottom: 60px;
-  font-size: 16px;
+  font-size: 30px;
   font-family: 'IBM Plex Serif';
   margin-bottom: 35px;
+  position: relative;
+}
+
+.about-card p {
+  font-size: 25px;
 }
 
 .about-text {
@@ -112,7 +117,7 @@ body {
   align-items: center;
   flex-direction: column;
   font-family: 'IBM Plex Serif';
-  font-size: 16px;
+  font-size: 30px;;
 }
 
 .project-grid {
@@ -128,7 +133,7 @@ body {
   align-items: center;
   flex-direction: column;
   font-family: 'IBM Plex Serif';
-  font-size: 16px;
+  font-size: 30px;;
 }
 
 .skilss-grid {
@@ -166,7 +171,7 @@ body {
   width: 75px;
   height: 75px;
   margin: 0 5px;
-  font-size: 60px;
+  font-size: 65px;
   cursor: pointer;
   color: #ff9f1c;
 }
