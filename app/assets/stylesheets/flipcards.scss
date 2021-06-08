@@ -3,12 +3,12 @@
 
 .flip-card-front {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(rentyurt.png);
-  background-size: contain;
+  background-size: cover;
 }
 
 .flip-card-front-2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(dished.png);
-  background-size: contain;
+  background-size: cover;
 }
 
 .flip-card-front-3 {
@@ -23,8 +23,8 @@
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   background-color: transparent;
-  width: 25%;
-  height: 15vw;
+  width: 530px;
+  height: 320px;
   border: 1px solid #f1f1f1;
 }
 

@@ -29,6 +29,16 @@
   left: 50%;
 }
 
+.arrow:hover {
+  color: #ff9f1c;
+}
+
+.arrow:after {
+    transform-origin: bottom left;
+    transform: translate(-50%, -50%) rotateZ(45deg);
+}
+
+
 .title-card {
   padding: 50px 72px;
 }
