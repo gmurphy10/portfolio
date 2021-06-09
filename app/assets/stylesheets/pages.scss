@@ -29,7 +29,7 @@ body {
   top: 89%;
   transition: all 0.6s ease;
   font-size: 50px;
-  left: 50%;
+  left: 49%;
 }
 
 .arrow:hover {
@@ -37,8 +37,7 @@ body {
 }
 
 .arrow:after {
-    transform-origin: bottom left;
-    transform: translate(-50%, -50%) rotateZ(45deg);
+  transition: all 0.6s ease;
 }
 
 
