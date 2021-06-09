@@ -8,13 +8,12 @@ body {
 }
 
 .container {
-  width: 100%;
   height: 100%;
   position:absolute;
   overflow-y: scroll;
 }
 
-.hero-image {
+.banner {
   background: #024874;
   height: 98%;
   width: 100%;
@@ -70,10 +69,6 @@ body {
 
 // about styling section
 
-.about-card {
-  background-color: #e9ecef;
-}
-
 .about-card h1 {
   font-family: 'IBM Plex Serif';
 }
@@ -94,14 +89,14 @@ body {
   text-align: center;
   flex-direction: column;
   padding-bottom: 60px;
-  font-size: 30px;
+  font-size: 20px;
   font-family: 'IBM Plex Serif';
-  margin-bottom: -40px;
+  margin-bottom: 30px;
   position: relative;
 }
 
 .about-card p {
-  font-size: 25px;
+  font-size: 17px;
 }
 
 .about-text {
@@ -121,8 +116,7 @@ body {
   align-items: center;
   flex-direction: column;
   font-family: 'IBM Plex Serif';
-  font-size: 30px;;
-  background-color: #e9ecef;
+  font-size: 20px;;
 }
 
 .project-grid {
@@ -130,7 +124,6 @@ body {
   display: flex;
   justify-content: space-evenly;
   padding-bottom: 60px;
-  background-color: #e9ecef;
 }
 
 // Skill section
@@ -139,7 +132,7 @@ body {
   align-items: center;
   flex-direction: column;
   font-family: 'IBM Plex Serif';
-  font-size: 30px;;
+  font-size: 20px;;
 }
 
 .skilss-grid {
@@ -183,3 +176,8 @@ body {
 }
 
 
+// * {
+//   background: #000 !important;
+//   color: #0f0 !important;
+//   outline: solid #f00 1px !important;
+// }
