@@ -66,6 +66,40 @@ body {
   font-family: 'IBM Plex Serif';
 }
 
+// animated text
+.animated-text{
+  background-color: #024874 !important;
+  height: 95px;
+  overflow: hidden;
+}
+
+.line:first-child{
+  animation: anim 12s infinite;
+}
+
+@keyframes anim {
+  0%{
+    margin-top: 0px;
+  }
+  16%{
+    margin-top: -120px;
+  }
+  33%{
+    margin-top: -180px;
+  }
+  // 50%{
+  //   margin-top: -120px;
+  // }
+  // 82%{
+  //   margin-top: -60px;
+  // }
+  100%{
+    margin-top: 0;
+  }
+
+}
+
+
 // about styling section
 
 .about-card h1 {
@@ -180,3 +214,4 @@ body {
 //   color: #0f0 !important;
 //   outline: solid #f00 1px !important;
 // }
+
