@@ -26,6 +26,7 @@
   width: 450px;
   height: 245px;
   border: 1px solid #f1f1f1;
+  cursor: pointer;
 }
 
 /* This container is needed to position the front and back side */
@@ -60,6 +61,7 @@
   font-size: 15px;
   font-family: 'IBM Plex Serif';
   padding: 10px 10px;
+  cursor: pointer;
 }
 
 .flip-card-back i, a {
@@ -70,6 +72,13 @@
 .flip-card-back i:hover {
   color: #ff9f1c;
   font-size: 32px;
+}
+
+.flip-card-back h1:hover {
+  text-decoration: underline;
+  text-decoration-color:  #ff9f1c;
+  transition: all 0.9s ease-in-out;
+  cursor: pointer;
 }
 
 
