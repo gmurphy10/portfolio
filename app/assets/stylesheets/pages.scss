@@ -5,6 +5,7 @@
 // title styling
 body {
   overflow: hidden;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -77,6 +78,7 @@ body {
   text-decoration: underline;
   text-decoration-color:  #ff9f1c;
   transition: all 0.9s ease-in-out;
+  cursor: pointer;
 }
 
 .line:first-child{
