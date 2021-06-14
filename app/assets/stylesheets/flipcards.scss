@@ -16,6 +16,12 @@
   background-size: cover;
 }
 
+.flip-card-front-4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(rentyurt.png);
+  background-size: cover;
+}
+
+
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
